@@ -22,7 +22,6 @@ logger.debug("Do something")
 logger.warning("Something maybe fail.")
 logger.info("Finish")
 
-logging.basicConfig(level = logging.DEBUG,format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 def print_instructions():
     """ This function prints the instructions. """
